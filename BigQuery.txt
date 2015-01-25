@@ -1,0 +1,1 @@
+select actor_attributes_login,type,repository_owner=actor_attributes_login as repository_self, count (*) as count from [githubarchive:month.201410] group by actor_attributes_login,type,repository_self having count(*)>0  order by actor_attributes_login;
