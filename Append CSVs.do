@@ -1,3 +1,4 @@
+cd 
 local i=0
 cap erase mybigfile.dta
 local files : dir . files "*.csv"
